@@ -12,7 +12,7 @@ socket.on("message", function(message){
 	}
 });
 
-socket,on("close", function(){
+socket.on("close", function(){
 	clients.delete(socket);
 });
 });
